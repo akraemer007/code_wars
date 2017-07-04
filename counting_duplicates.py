@@ -12,9 +12,10 @@
 # "aa11" -> 2 # 'a' and '1'
 
 def duplicate_count(text):
+    lower_text = text.lower()
     duplicates = []
-    for x in text:
-        if text.count(x) > 1 and x not in duplicates:
+    for x in lower_text:
+        if lower_text.count(x) > 1 and x not in duplicates:
             duplicates.append(x)
     return len(duplicates)
 
