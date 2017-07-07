@@ -10,8 +10,33 @@
 #
 # Your task is to write a function longestSlideDown (in ruby: longest_slide_down) that takes a pyramid representation as argument and returns its' longest 'slide down'. For example,
 
-def longestSlideDown():
+# def longestSlideDown(pyramid):
+#     sum_list_old = pyramid[0]
+#     level = 1
+#     summing = []
+#     index = 0
+#     for x in pyramid[1:]: # layer of pyramid
+#         for i in x:
+#
+#             summing = [i + ]
+#
+#             index += 1
+
+
+# I am sooooo stuck!
+
+def longestSlideDown(pyramid):
+    reverse_pyramid = pyramid[::-1]
+    previous_step = reverse_pyramid[0]
+
+    # for x in reverse_pyramid[1:]:
+    x = [2,4,6]
+
+        # for i in x:
+
+    i = 2
+
 
 
 longestSlideDown([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]])
-print(23)
+# print(23)
